@@ -24,10 +24,10 @@ THE SOFTWARE.
 
 $(function () {
 	var loadedcss = '';
-	$('#time1').val('15:00');
-	$('#time2').val('20:00');
+	$('#time1').val('14:00');
+	$('#time2').val('15:00');
 	$('#time3').val('25:00');
-	$('#info').html("Click to edit this message.");
+	$('#info').html("GP2 15min/10min");
 
 	function getHashParams() {
 		var hashParams = {};
