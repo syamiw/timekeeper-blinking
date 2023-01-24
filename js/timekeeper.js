@@ -116,6 +116,8 @@ $(function () {
 	};
 
 	function standby() {
+		$('#time').removeClass('timeover');
+		$('#time').addClass('time');
 		$('.nav li').removeClass('active');
 		$('.nav li#standby').addClass('active');
 		$('#state').html('STANDBY');
@@ -244,6 +246,8 @@ $(function () {
 					changePhaseClass('3');
 					audio_chime3.currentTime = 0;
 					audio_chime3.play();
+					$('#time').removeClass('time');
+					$('#time').addClass('timeover');
 				}
 
 			}

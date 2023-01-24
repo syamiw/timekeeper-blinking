@@ -1,3 +1,7 @@
+# 学会タイマーblinking version
+3回目(time3)のベルのタイミングでタイマーを赤字で点滅させて質疑終了を促すように改造したフォークです。改造部分に関しては権利を放棄します。
+
+(以下、original README)
 # Time Keeper
 HTML5 and JavaScript based timer with notification chime for academic conference.
 
